@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8f8;
+    margin: 20px;
+    padding: 20px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.logo {
+    width: 100px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #008080;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #006666;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: inline-block;
+    width: 200px;
+}
+
+span {
+    color: #444;
+    font-style: italic;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;   /* khoảng cách giữa các lựa chọn */
+    margin-top: 8px;
+}
+
+.radio-group label {
+    font-weight: normal;
+}
+
+/* Form input chung */
+input[type="text"],
+input[type="date"],
+input[type="email"],
+select {
+    width: 250px;
+    padding: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-top: 8px;
+}
+
+/* Button chung */
+.btn, input[type="submit"] {
+    background-color: #008080;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.btn:hover, input[type="submit"]:hover {
+    background-color: #006666;
+}
+
+/* Thêm box cho trang thanks.jsp */
+.result-box {
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: 20px auto;
+}
